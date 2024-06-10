@@ -1,11 +1,25 @@
-# Windows
-
-- Enable WSL2
-- Docker Desktop
-    - Enable WSL2 backend
-
-
-# WSL 2
+# Install Arch
+- luks
+- btrfs subvolumes for @, @home, @pkg @log
+- install yay
+- nvidia-dkms
+  - https://github.com/korvahannu/arch-nvidia-drivers-installation-guide?tab=readme-ov-file
+- hack nerdfont       
+- lutris
+  - epic game store
+    - probably winetricks install c++
+  - ffxiv
+  - battle.net
+    - d4
+    - wow
+- steam
+  - BG3
+  - Last Epoch
+  - Path of Exile (proton compat)
+- goverlay/mangohud -> set to f12
+- set mangohud=1 in zshrc
+- melkey vscode bindings/settings
+- timeshift
 ```
 #Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
