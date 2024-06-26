@@ -60,6 +60,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls="eza --color=always --long --git --icons=always"
 alias cd="z"
+alias vim="nvim"
 
 # Shell integrations
 eval "$(fzf --zsh)"
